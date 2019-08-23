@@ -1,8 +1,0 @@
-/tmp/tmpsjk2skvc/dolfin_expression_d4a6d9739a48c173c40e98bd8c9ea330.cpp: In member function 'virtual void dolfin::dolfin_expression_d4a6d9739a48c173c40e98bd8c9ea330::eval(Eigen::Ref<Eigen::Matrix<double, -1, 1> >, Eigen::Ref<const Eigen::Matrix<double, -1, 1> >) const':
-/tmp/tmpsjk2skvc/dolfin_expression_d4a6d9739a48c173c40e98bd8c9ea330.cpp:61:23: error: 'u_code' was not declared in this scope
-           values[0] = u_code;
-                       ^~~~~~
-/tmp/tmpsjk2skvc/dolfin_expression_d4a6d9739a48c173c40e98bd8c9ea330.cpp:61:23: note: suggested alternative: '__cosl'
-           values[0] = u_code;
-                       ^~~~~~
-                       __cosl

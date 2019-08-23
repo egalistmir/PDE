@@ -1,3 +1,0 @@
-#!/bin/bash
-# Execute this file to recompile locally
-/root/anaconda/bin/x86_64-conda_cos6-linux-gnu-c++ -Wall -shared -fPIC -std=c++11 -O3 -fno-math-errno -fno-trapping-math -ffinite-math-only -I/root/anaconda/include -I/root/anaconda/include/eigen3 -I/root/anaconda/.cache/dijitso/include dolfin_expression_d4a6d9739a48c173c40e98bd8c9ea330.cpp -L/root/anaconda/lib -L/root/anaconda/root/anaconda/lib -L/root/anaconda/.cache/dijitso/lib -Wl,-rpath,/root/anaconda/.cache/dijitso/lib -lmpi -lmpicxx -lpetsc -lslepc -lz -lhdf5 -lboost_timer -ldolfin -olibdijitso-dolfin_expression_d4a6d9739a48c173c40e98bd8c9ea330.so
